@@ -1,0 +1,18 @@
+.date--past {
+  pointer-events: none !important;
+  cursor: default !important;
+  opacity: 0.9 !important;
+}
+
+.date--past:hover,
+.date--past:hover .react-datepicker__day_span {
+  background: none !important;
+  color: var(--bg-green) !important;
+}
+
+// .date--future-disabled {
+//   opacity: 0.6;
+//   pointer-events: none;
+//   cursor: default;
+//   background: none !important;
+// }

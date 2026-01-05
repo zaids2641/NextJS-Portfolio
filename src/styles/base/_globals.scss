@@ -1,0 +1,15 @@
+/* styles/base/_globals.scss */
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+* {
+  box-sizing: border-box;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}

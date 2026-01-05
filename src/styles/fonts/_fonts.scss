@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Bebas+Neue&family=Forum&family=Ibarra+Real+Nova:ital,wght@0,400..700;1,400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Orbitron:wght@400..900&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Square+Peg&family=Ubuntu+Condensed&display=swap');
+
+// Core portfolio fonts
+.font-inter {
+  font-family: "Inter", sans-serif;
+}
+
+.font-poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+.font-quicksand {
+  font-family: "Quicksand", sans-serif;
+}
+
+.font-raleway {
+  font-family: "Raleway", sans-serif;
+}
+
+.font-nunito {
+  font-family: "Nunito", sans-serif;
+}
+
+.font-ubuntu-condensed {
+  font-family: "Ubuntu Condensed", sans-serif;
+}
+
+
+
+// Serif / accent fonts
+.font-forum {
+  font-family: "Forum", serif;
+}
+
+.font-ibarra {
+  font-family: "Ibarra Real Nova", serif;
+}
+
+.font-noto-serif {
+  font-family: "Noto Serif", serif;
+}
+
+
+
+// Display / decorative fonts
+.font-bebas {
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.font-orbitron {
+  font-family: "Orbitron", sans-serif;
+}
+
+.font-audiowide {
+  font-family: "Audiowide", sans-serif;
+}
+
+.font-pacifico {
+  font-family: "Pacifico", cursive;
+}
+
+.font-square-peg {
+  font-family: "Square Peg", cursive;
+}
+
+
+
+// Monospace
+.font-mono {
+  font-family: "Roboto Mono", monospace;
+}
+
+
+
+// Weight helpers
+.fw-300 { font-weight: 300; }
+.fw-400 { font-weight: 400; }
+.fw-500 { font-weight: 500; }
+.fw-600 { font-weight: 600; }
+.fw-700 { font-weight: 700; }
+.fw-800 { font-weight: 800; }
+.fw-900 { font-weight: 900; }
+
+
+

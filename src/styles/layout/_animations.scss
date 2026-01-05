@@ -1,0 +1,24 @@
+/* styles/layout/_animations.scss */
+
+.animated-gradient {
+  background-size: 200% 100%;
+  animation: gradient-slide 4s ease-in-out infinite;
+}
+
+@keyframes gradient-slide {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

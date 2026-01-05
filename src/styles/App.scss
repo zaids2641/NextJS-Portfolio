@@ -1,0 +1,113 @@
+/* styles/App.scss */
+
+/* Base */
+@use "./base/variables";
+@use "./base/globals";
+@use "./base/datepicker-reset";
+@use "./base/media";
+
+/* Datepicker */
+@use "./datepicker/layout";
+@use "./datepicker/range";
+@use "./datepicker/disabled";
+
+/* Page */
+@use "./layout/_page-layout";
+@use "./layout/_animations";
+
+/* Font */
+@use "./fonts//fonts";
+
+.theme-scope {
+  --neutral-gray: #ECEEEC;
+}
+
+.theme-scope.dark {
+  --neutral-gray: #1a1a1a;
+}
+
+.fluid_text {
+  font-weight: 700;
+  line-height: 1.05;
+  font-size: clamp(3.4rem, 5.1vw, 4.6rem);
+}
+
+.fluid_brand {
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  font-size: clamp(2rem, 6vw, 2.5rem);
+}
+
+.HeadingCustom {
+  font-weight: 700;
+  line-height: 1.05;
+  text-wrap: balance;
+
+  /* True fluid from mobile → desktop */
+  font-size: clamp(2.4rem, 7vw, 4.6rem);
+}
+
+@media (min-width: 640px) {
+  .HeadingCustom {
+    font-size: clamp(3rem, 5vw, 4.6rem);
+  }
+}
+
+.block_visible {
+    display: none;
+}
+
+.sub_header {
+    text-align: left;
+}
+
+
+
+
+
+@media screen and (max-width: 1080px) {
+    .block_hidden {
+        display: none;
+    }
+
+    .block_visible {
+        display: block;
+    }
+
+    .fluid_text{
+        font-size: clamp(2.4rem, 8.2vw, 5.6rem);
+        color: white;
+        text-align: center;
+    }
+
+    .sub_header {
+        text-align: center;
+    }
+
+    .button_container button:nth-child(1) {
+        background: white;
+        color: var(--dark);
+        width: 275px;
+        margin: auto;
+
+        &:hover {
+            background: var(--accent-teal);
+            color: white;
+        }
+    }
+
+    .button_container button:nth-child(2) {
+        background: none;
+        border: 2px white solid;
+        color: white;
+        width: 275px;
+        margin: auto;
+
+        &:hover {
+            border: 2px var(--accent-teal) solid;
+            color: var(--accent-teal);
+        }
+    }
+
+}

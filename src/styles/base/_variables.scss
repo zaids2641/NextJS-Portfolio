@@ -1,0 +1,22 @@
+:root {
+  --neutral-gray: #ECEEEC;
+  --dark: #1A1A1A;
+  --text-gray: #8e8f8e;
+
+  // Accents
+  --accent-teal: #2F8F83;
+  --accent-soft-teal: #6FBFB5;
+  --transition-all: all ease-in-out 0.1s;
+
+  // --theme-transition: 
+  //   background-color 200ms ease,
+  //   color 200ms ease,
+  //   border-color 200ms ease,
+  //   fill 200ms ease;
+}
+
+// /* Dark mode */
+.dark {
+  --dark: #1A1A1A;
+  --neutral-gray: #1a1a1a;
+}

@@ -1,0 +1,44 @@
+/* Remove default range colors */
+.react-datepicker__day--in-range,
+.react-datepicker__day--in-selecting-range,
+.react-datepicker__day--range-start,
+.react-datepicker__day--range-end,
+.react-datepicker__day--selecting-range-start,
+.react-datepicker__day--selecting-range-end {
+  background-color: transparent !important;
+  color: inherit !important;
+  transition: var(--transition-all);
+}
+
+/* Hover cleanup */
+.react-datepicker__day--in-range:hover,
+.react-datepicker__day--range-start:hover,
+.react-datepicker__day--range-end:hover {
+  background: inherit !important;
+  color: inherit !important;
+}
+
+/* Middle range day NUMBER only */
+.react-datepicker__day--in-range:not(.react-datepicker__day--range-start):not(.react-datepicker__day--range-end)
+  .react-datepicker__day_span,
+.react-datepicker__day--in-selecting-range:not(.react-datepicker__day--selecting-range-start):not(.react-datepicker__day--selecting-range-end)
+  .react-datepicker__day_span {
+  background-color: var(--bg-light-green) !important;
+  color: var(--bg-green) !important;
+  border: 1px var(--bg-green-2) solid;
+  transition: var(--transition-all);
+}
+
+/* Day number */
+.react-datepicker__day_span {
+  color: var(--bg-green) !important;
+}
+
+/* Start / End */
+.react-datepicker__day--selected .react-datepicker__day_span,
+.react-datepicker__day--range-start .react-datepicker__day_span,
+.react-datepicker__day--range-end .react-datepicker__day_span,
+.react-datepicker__day_span:hover {
+  background-color: var(--bg-green) !important;
+  color: white !important;
+}
